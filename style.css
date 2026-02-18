@@ -1,0 +1,18 @@
+*{
+    color: red;
+}
+pre{
+    color: yellow;
+}
+
+#box{
+    color: blue;
+}
+
+.heading{
+    color: blue;
+}
+
+button{
+    color:cyan
+}
