@@ -1,10 +1,27 @@
-#noob{
-    width: 100px;
+div{
+    width:100px;
     height:100px;
-    background-color: red;
-
+    background-color: aqua;
+    border: 2px solid black;
 }
-#mob{
-    width: 1rem;
-    background-color: blue;
+#box1{
+    position: static;
+    background-color: aqua;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left:20px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+#box3{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+    background-color: red;
+}
+#box4{
+background-color: purple;
+position: fixed;
 }
